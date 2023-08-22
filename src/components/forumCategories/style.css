@@ -1,0 +1,32 @@
+.eachForum {
+  width: 355px;
+  height: 115px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.eachForum > img {
+  width: 25px;
+  height: 25px;
+}
+
+.eachForum > span {
+  color: #fff;
+}
+
+.forumCategories {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.categoriesTop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

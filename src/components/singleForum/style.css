@@ -1,0 +1,44 @@
+.eachForum {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.eachForumUser {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.eachForumUser > img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.forumCategories {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.eachForumDescription > p {
+  max-height: 200px;
+  overflow: auto;
+}
+
+.eachForumImages {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow: auto;
+}
+
+.eachForumImages > img {
+  width: 150px !important;
+  height: 150px;
+}

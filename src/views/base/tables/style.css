@@ -1,0 +1,25 @@
+.card-body {
+  overflow-x: auto;
+}
+
+.moderatorImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.table > tbody > tr {
+  cursor: pointer;
+  text-align: center;
+}
+
+.thw {
+  min-width: 120px;
+  text-align: center;
+}
+
+.userAvatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
